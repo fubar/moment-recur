@@ -1,6 +1,6 @@
 # moment-recur-npm
 
-This is a version of [moment-recur](https://github.com/c-trimm/moment-recur) that is limited to npm - I removed bower and browser support to solve dependency issues caused by preinstall and postinstall hooks that are intended for development and caused failures on production.
+This is a version of Casey Trimm's [moment-recur](https://github.com/c-trimm/moment-recur) library that is limited to npm - I removed bower and browser support to solve dependency issues caused by preinstall and postinstall hooks that are intended for development and caused failures on production.
 
 The rest of this readme is the original author's, with browser-specific sections removed.
 

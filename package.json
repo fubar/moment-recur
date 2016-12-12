@@ -1,6 +1,6 @@
 {
   "name": "moment-recur-npm",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "A momentjs plugin for matching and generating recurring dates. Forked from moment-recur.",
   "main": "moment-recur.js",
   "repository": {

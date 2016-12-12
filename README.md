@@ -1,5 +1,13 @@
-moment-recur
-=====
+# moment-recur-npm
+
+This is a version of Casey Trimm's [moment-recur](https://github.com/c-trimm/moment-recur) library that is limited to npm - I removed bower and browser support to solve dependency issues caused by preinstall and postinstall hooks that are intended for development and caused failures on production.
+
+The rest of this readme is the original author's, with browser-specific sections removed.
+
+---
+
+## moment-recur
+
 moment-recur is a recurring date plugin for [momentjs](http://momentjs.com/). This plugin handles dates only; time information is discarded.
 
 The rule matching concept is borrowed from the excellent [node-date-recur](https://github.com/appsattic/node-date-recur) library created by Andrew Chilton.
@@ -18,7 +26,7 @@ Getting Started
 ---------------
 
 ```
-npm install moment-recur
+npm install --save https://github.com/fubar/moment-recur-npm
 ```
 
 ```js

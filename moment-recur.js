@@ -2,7 +2,7 @@
     if (typeof exports === 'object') {
         module.exports = factory(require('moment'));
     } else if (typeof define === 'function' && define.amd) {
-        define('moment-recur', ['moment'], factory);
+        define('moment-recur-npm', ['moment'], factory);
     } else {
         root.moment = factory(root.moment);
     }

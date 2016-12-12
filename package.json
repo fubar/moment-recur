@@ -1,6 +1,6 @@
 {
   "name": "moment-recur-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A momentjs plugin for matching and generating recurring dates. Forked from moment-recur.",
   "main": "moment-recur.js",
   "repository": {
@@ -17,12 +17,10 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.2",
+    "moment": "^2.15.2",
     "moment-timezone": "^0.5.7"
   },
   "scripts": {
     "test": "mocha --recursive ./tests/spec"
-  },
-  "dependencies": {
-    "moment": "^2.15.2"
   }
 }
